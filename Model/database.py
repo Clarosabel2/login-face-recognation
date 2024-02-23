@@ -4,10 +4,10 @@ import io
 from Model.user import User
 
 conexion=mysql.connector.connect(
-    host="db4free.net",
-    user="chrisbel2000",
-    password="3rd@gJk7#NgV2Ha",
-    database="argprom42023"
+    host="#",
+    user="#",
+    password="#",
+    database="#"
 )
 def getPhoto(iduser):
     cursor = conexion.cursor()
